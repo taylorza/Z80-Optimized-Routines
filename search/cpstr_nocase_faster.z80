@@ -28,5 +28,5 @@ _:
   inc hl
   ret nz
   or a
-  jr nz,cpstr
+  jr nz,cpstr_nocase
   ret
